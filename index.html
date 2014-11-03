@@ -4,21 +4,40 @@
 	<title>Mads Bøtker Andersen</title>
 
 	<!-- Libs -->
-	<script type="text/javascript" src="lib/script.js"></script>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+	<script src="lib/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="lib/style.css">
 
-	<!-- Character Encoding -->
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!-- Meta data -->
+   	<meta charset='utf-8'>
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
 
 </head>
 <body>
-
-	<header class="header">
-		STATIC HEADER
-	</header>
-
+	
+	<nav>
+		<div id="cssmenu">
+		<ul>
+		   <li><a href='index.html'>Home</a></li>
+		   <li><a href='#'>Blog</a></li>
+		   <li class='has-sub'><a href='#'>About</a>
+		   		<ul>
+		   			<li><a href="#">Mads who?</a></li>
+		   			<li><a href="#">Portfolio and Work</a></li>
+		   			<li class="has-sub"><a href="#">Computer Science Education</a>
+		   			<ul>
+		   				<li><a href="#">Notes</a></li>
+		   				<li><a href="#">Exams</a></li>
+		   			</ul>
+		   			</li>
+		   		</ul>
+		   </li>
+		   <li><a href='#'>Contact</a></li>
+		</ul>
+		</div>
+	</nav>
 
 	<div class="content">
 		MAIN CONTENT
@@ -28,15 +47,6 @@
 		FOOTER WITH INFO
 	</footer>
 
-	<nav class="navigation">
-		<ul>
-			<li>Home</li>
-			<li>Blog</li>
-			<li>Portfolio</li>
-			<li>About</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
 
 </body>
 
